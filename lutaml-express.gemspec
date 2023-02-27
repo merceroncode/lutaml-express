@@ -25,7 +25,6 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency "expressir", "~> 1.2"
 
-  spec.add_development_dependency "byebug"
   spec.add_development_dependency "nokogiri", "~> 1.10"
   spec.add_development_dependency "rubocop", "~> 0.54.0"
   spec.add_development_dependency "bundler", "~> 2.0"
