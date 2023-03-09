@@ -18,18 +18,17 @@ jobs:
         os: [ ubuntu-latest, windows-latest, macos-latest ]
         experimental: [ false ]
         include:
-          - ruby: '3.2'
+          - ruby: '3.0'
             os: 'ubuntu-latest'
             experimental: true
           - ruby: '3.2'
             os: 'windows-latest'
             experimental: true
-          - ruby: '3.2'
+          - ruby: '3.0'
             os: 'macos-latest'
             experimental: true
-
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@master
 
       - uses: ruby/setup-ruby@v1
         with:
